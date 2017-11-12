@@ -19,7 +19,7 @@
 #new key called "Unpack PES Files". Then create
 #one subkey here called "Command" and change its default
 #<REG_SZ> value to:
-#"C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe" "c:\scripts\unpackpesfiles.ps1" "%1"
+#"C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe" "c:\scripts\unpackpesfiles.ps1 \"%1\""
 #(adjust the locations of the powershell exe, and script
 #location, appropriately.
 
